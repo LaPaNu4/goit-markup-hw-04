@@ -124,6 +124,7 @@ h1.hidden {
     url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -185,6 +186,7 @@ h1.hidden {
 .btn:focus {
   color: #ffffff;
   background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* main */
 .about {
@@ -245,7 +247,8 @@ h1.hidden {
   align-items: center;
   justify-content: center;
 }
-.cont-social-link:hover {
+.cont-social-link:hover,
+.cont-social-link:focus {
   background-color: #404bbf;
 }
 .cont-social-icon {
@@ -276,7 +279,7 @@ h1.hidden {
 .work .list {
   display: flex;
   /* justify-content: space-between; */
-  gap: 32px;
+  gap: 24px;
 }
 .footer {
   display: flex;
@@ -345,7 +348,6 @@ h1.hidden {
   border: 1px solid #e7e9fc;
 }
 .portfolio-item:hover {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -362,7 +364,7 @@ h1.hidden {
 }
 .customers-item {
   width: 168px;
-  height: 68px;
+  height: 88px;
 }
 .customers-link {
   width: 100%;
@@ -374,7 +376,8 @@ h1.hidden {
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border-color: #404bbf;
   fill: #404bbf;
 }
@@ -416,6 +419,7 @@ h1.hidden {
 .footer-cont-icon {
   fill: #f4f4fd;
 }
-.footer-cont-link:hover {
+.footer-cont-link:hover,
+.footer-cont-link:focus {
   background-color: #31d0aa;
 }
